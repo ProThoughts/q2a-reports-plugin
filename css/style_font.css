@@ -1,0 +1,298 @@
+/*==============================================================================
+********************     Fonts Family Styles For The Site   ********************
+==============================================================================*/
+
+/*--  Lato Regular  --*//*
+@font-face {
+    font-family:"lato-regular";
+    src: url("../fonts/lato-regular/lato-regular.eot");
+    src: url("../fonts/lato-regular/lato-regular.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/lato-regular/lato-regular.woff2") format("woff2"),
+        url("../fonts/lato-regular/lato-regular.woff") format("woff"),
+        url("../fonts/lato-regular/lato-regular.ttf") format("truetype"),
+        url("../fonts/lato-regular/lato-regular.svg#roboto-regular") format("svg"); 
+}*/
+
+/*==============================================================================
+********************     Common Styles For The Site   **************************
+==============================================================================*/
+*{
+    outline: none !important;
+}
+/*==============================================================================
+********************     Header Styles For The Site   **************************
+==============================================================================*/
+.header{
+    margin-top: 10px;
+}
+.header_border{
+    border-bottom: 5px solid #D22C33;
+    padding-bottom: 10px;
+}
+.list li{
+    margin-right: 50px;
+    list-style: none;
+    display: inline;
+}
+.list ul{
+    margin-top: 20px;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+}
+.list a:hover{
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #D22C33;
+}
+.header_search{
+    margin-top: 15px;
+}
+.header_search input{  
+    background-image: url("../images/searchicongray34.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    border: 2px solid #DBDCD9;
+    border-radius: 50px;
+}  
+.contact {
+    margin-top: 15px;
+}
+.contact i{
+    margin-left: 20px;
+}
+.searchbox{
+    text-align: center;
+    margin-top: 50px;
+}
+.searchbox input{
+    border: 2px solid #DBDCD9;
+    width: 90%;
+    height: 30px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+}
+.searchbox a{
+    background-color: #D22C33;
+    text-decoration: none;
+    color: white;
+    margin-left: -135px;
+    padding: 10px 25px;
+    border-radius: 30px;
+}
+.tile_bar{
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+.tile_bar img{
+    background-color: #D22C33;
+    float: left;
+    width: 90px;
+    height: 128px;
+    
+    border-radius: 10px;
+}
+.topic1 {
+    float: left;
+    width: 190px;
+    height: 127px;
+    border-radius: 10px;
+    background-image: url("../images/c37f349ccd294cf0aebc99da8606c00d_18.jpg");
+    margin-right: 22px;
+}
+.topic1 p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-left: 24px;
+}
+
+.topic2{
+    float: left;
+    width: 190px;
+    height: 127px;
+    border-radius: 10px;
+    background-image: url("../images/_75974194_180947444.jpg");
+    background-size: cover;
+    margin-right: 15px;
+}
+.topic2 p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-left: 24px;
+}
+
+.topic3{
+    float: left;
+    width: 190px;
+    height: 127px;
+    border-radius: 10px;
+    background-image: url("../images/img_06112015_005050_4-ieu2862-fr.png");
+    background-size: cover;
+    margin-right: 15px;
+    
+}
+.topic3 p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-left: 24px;
+}
+
+.topic4{
+    float: left;
+    width: 190px;
+    height: 127px;
+    border-radius: 10px;
+    background-image: url("../images/x_lon_father_150204.jpg");
+    background-size: cover;
+    margin-right: 15px;
+}
+.topic4 p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 90px;
+    margin-left: 24px;
+}
+.topic5 img{
+    float: left;
+    background-color: white;
+    color: red;
+    width: 25px;
+    height: 25px;
+    margin-top: 50px;
+    margin-right: -1px;
+    overflow: hidden;
+}
+.clear{
+    clear: both;
+}
+
+.ques_categories{
+    border-bottom: 3px solid #D22C33;
+    padding-bottom: 0;
+    padding-left: 30px;
+}
+.ques_categories h3{
+    color: #D22C33;
+    font-weight: bold;
+}
+.ques_categories a{
+    text-decoration: none;
+    color: black;
+    line-height: 5;
+    font-weight: bold;
+}
+
+
+.left{
+   /* margin-top: 20px;*/
+}
+
+.left img{
+    border-radius: 50%;
+    height: 70px;
+}
+
+.edit_del img{
+    width: 30px;
+}
+
+.right{
+    /*margin-top: 20px;*/
+}
+
+.bookmark{
+    float: right;
+    padding-right: 20px;
+    line-height: 5;
+    margin-top: 30px;
+    color: #FFA932;
+}
+
+.more_ans{
+    font-weight: bold;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.more_ans a{
+    color: gray;
+}
+.buttons{
+    padding-left: 20px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.buttons a{
+    color: gray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #DBDCD9;
+    margin-right: 10px;
+}
+.question_section_border{
+    border-bottom: 3px solid #DBDCD9;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.border{
+    border-bottom: 3px solid #DBDCD9;
+}
+.right_heading{
+    margin-left: 20px;
+}
+.right_heading h3{
+    border-bottom: 3px solid #D22C33;
+    padding-bottom: 24px;
+}
+.view_all{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #D22C33;
+}
+.main_list{
+    list-style: none;
+}
+.sub_list{
+    list-style: none;
+}
+
+
+/* My Code */
+.header_acc_menu, .header_acc_menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header_acc_menu li{
+    display: inline-block;
+}
+
+.header_acc_menu ul {
+    background-color:  #fff;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    display: none;
+}
+.header_acc_menu ul li {
+    display: block !important;
+    margin-bottom: 10px;
+    
+}
+.acc_drop_down:hover > ul{
+    display: block;
+}
+
+
+/*==============================================================================
+********************     Media Styles For The Site   ***************************
+==============================================================================*/
+

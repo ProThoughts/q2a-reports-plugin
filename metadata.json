@@ -1,0 +1,10 @@
+{
+	"name": "Q2A Reports Plugin",
+	"description": "You can give report for question, answer, category, Topics and Users. It will show on `admin/flagged`",
+	"version": "1.0",
+	"date": "21-03-2017",
+	"author": "ratonshahadat",
+	"author_uri": "https://github.com/ratonshahadat",
+	"license": "14RS2012"
+}
+
